@@ -17,6 +17,10 @@ public class Quiz {
                 } while(!success);
                 System.out.print("Apakah Anda ingin mengulang permainan ( Y/y)?");
                 menu = input.nextLine().charAt(0);
+
+                if(menu != 'Y' && menu != 'y') {
+                    break;
+                }
         }while (menu == 'y' || menu == 'Y');
     }
     
