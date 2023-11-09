@@ -5,7 +5,7 @@ public class Individu3 {
         Scanner input = new Scanner(System.in);
         System.out.print("Masukkan nilai N (minimal 3): ");
         int N = input.nextInt();
-        input.close();
+        
 
         if (N < 3) {
             System.out.println("Nilai N harus minimal 3.");
